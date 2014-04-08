@@ -3,8 +3,8 @@ package eu.ha3.matmos.game.gui;
 import java.util.Iterator;
 import java.util.List;
 
-import net.minecraft.client.gui.GuiButton;
-import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.src.GuiButton;
+import net.minecraft.src.GuiScreen;
 import eu.ha3.matmos.game.data.abstractions.module.ModuleProcessor;
 import eu.ha3.matmos.game.system.MAtMod;
 import eu.ha3.mc.quick.chat.ChatColorsSimple;
@@ -115,7 +115,7 @@ public class MAtGuiModules extends GuiScreen
 	{
 		drawGradientRect(0, 0, this.width, this.height, 0xC0C06000, 0x60C06000);
 		drawCenteredString(
-			this.fontRendererObj, ChatColorsSimple.COLOR_GOLD + "Dev mode: On-screen Display", this.width / 2, 1,
+			this.fontRenderer, ChatColorsSimple.COLOR_GOLD + "Dev mode: On-screen Display", this.width / 2, 1,
 			0xffffff);
 		
 		this.mod.getVisualDebugger().onFrame(-1f);

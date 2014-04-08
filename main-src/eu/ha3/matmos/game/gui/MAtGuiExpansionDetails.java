@@ -2,10 +2,10 @@ package eu.ha3.matmos.game.gui;
 
 import java.io.File;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiButton;
-import net.minecraft.client.gui.GuiScreen;
-import net.minecraft.client.gui.ScaledResolution;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.GuiButton;
+import net.minecraft.src.GuiScreen;
+import net.minecraft.src.ScaledResolution;
 import eu.ha3.matmos.expansions.Expansion;
 import eu.ha3.matmos.expansions.debugunit.ExpansionDebugUnit;
 import eu.ha3.matmos.expansions.debugunit.FolderResourcePackEditableEDU;
@@ -42,7 +42,7 @@ public class MAtGuiExpansionDetails extends GuiScreen
 		drawGradientRect(0, 0, this.width, this.height, 0xF0000000, 0x90000000);
 		
 		drawCenteredString(
-			this.fontRendererObj,
+			this.fontRenderer,
 			ChatColorsSimple.COLOR_GOLD
 				+ "Dev mode: Viewing " + ChatColorsSimple.COLOR_YELLOW + ChatColorsSimple.THEN_ITALIC
 				+ this.expansion.getFriendlyName() + " (" + this.expansion.getName() + ")", this.width / 2, 4, 0xffffff);

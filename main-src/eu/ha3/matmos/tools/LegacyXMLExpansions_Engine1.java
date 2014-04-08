@@ -5,8 +5,8 @@ import java.util.Map;
 
 import javax.xml.xpath.XPathExpressionException;
 
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
+import net.minecraft.src.Block;
+import net.minecraft.src.Item;
 import net.sf.practicalxml.DomUtil;
 
 import org.w3c.dom.DOMException;

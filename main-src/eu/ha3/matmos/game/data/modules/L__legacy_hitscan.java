@@ -3,9 +3,9 @@ package eu.ha3.matmos.game.data.modules;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.util.MovingObjectPosition;
-import net.minecraft.util.MovingObjectPosition.MovingObjectType;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.MovingObjectPosition;
+import net.minecraft.src.MovingObjectType;
 import eu.ha3.matmos.engine.core.interfaces.Data;
 import eu.ha3.matmos.game.data.MODULE_CONSTANTS;
 import eu.ha3.matmos.game.data.abstractions.module.Module;

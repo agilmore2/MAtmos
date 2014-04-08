@@ -7,8 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.minecraft.client.resources.ResourcePackRepository;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.src.ResourcePackRepository;
+import net.minecraft.src.ResourceLocation;
 
 import org.apache.commons.io.IOUtils;
 

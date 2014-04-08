@@ -1,13 +1,13 @@
 package eu.ha3.matmos.game.data.modules;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.entity.EntityClientPlayerMP;
-import net.minecraft.client.gui.inventory.GuiContainer;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.item.EntityBoat;
-import net.minecraft.entity.item.EntityMinecartEmpty;
-import net.minecraft.entity.passive.EntityHorse;
-import net.minecraft.item.ItemStack;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.EntityClientPlayerMP;
+import net.minecraft.src.GuiContainer;
+import net.minecraft.src.Entity;
+import net.minecraft.src.EntityBoat;
+import net.minecraft.src.EntityMinecartEmpty;
+import net.minecraft.src.EntityHorse;
+import net.minecraft.src.ItemStack;
 import eu.ha3.matmos.engine.core.interfaces.Data;
 import eu.ha3.matmos.game.data.MODULE_CONSTANTS;
 import eu.ha3.matmos.game.data.abstractions.module.Module;

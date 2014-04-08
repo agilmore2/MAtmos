@@ -1,9 +1,9 @@
 package eu.ha3.matmos.game.data.modules;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.entity.EntityPlayerSP;
-import net.minecraft.world.World;
-import net.minecraft.world.storage.WorldInfo;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.EntityPlayerSP;
+import net.minecraft.src.World;
+import net.minecraft.src.WorldInfo;
 import eu.ha3.matmos.engine.core.interfaces.Data;
 import eu.ha3.matmos.game.data.abstractions.module.Module;
 import eu.ha3.matmos.game.data.abstractions.module.ModuleProcessor;

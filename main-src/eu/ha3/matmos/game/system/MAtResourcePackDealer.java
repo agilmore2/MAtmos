@@ -5,10 +5,10 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.resources.IResourcePack;
-import net.minecraft.client.resources.ResourcePackRepository;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.IResourcePack;
+import net.minecraft.src.ResourcePackRepository;
+import net.minecraft.src.ResourceLocation;
 
 /*
 --filenotes-placeholder

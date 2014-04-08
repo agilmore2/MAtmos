@@ -3,10 +3,10 @@ package eu.ha3.matmos.game.data.abstractions.module;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.NBTTagList;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.EntityPlayer;
+import net.minecraft.src.ItemStack;
+import net.minecraft.src.NBTTagList;
 import eu.ha3.matmos.engine.core.interfaces.Data;
 
 /* x-placeholder */

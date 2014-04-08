@@ -1,6 +1,6 @@
 package eu.ha3.matmos.game.system;
 
-import net.minecraft.client.audio.SoundManager;
+import net.minecraft.src.SoundManager;
 import paulscode.sound.SoundSystem;
 
 /*

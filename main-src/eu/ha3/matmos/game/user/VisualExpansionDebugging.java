@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeMap;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.FontRenderer;
-import net.minecraft.client.gui.ScaledResolution;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.FontRenderer;
+import net.minecraft.src.ScaledResolution;
 
 import org.lwjgl.opengl.GL11;
 

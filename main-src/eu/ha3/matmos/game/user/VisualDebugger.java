@@ -5,11 +5,11 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.FontRenderer;
-import net.minecraft.client.gui.GuiChat;
-import net.minecraft.client.gui.ScaledResolution;
-import net.minecraft.entity.EntityList;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.FontRenderer;
+import net.minecraft.src.GuiChat;
+import net.minecraft.src.ScaledResolution;
+import net.minecraft.src.EntityList;
 
 import org.apache.commons.lang3.StringUtils;
 import org.lwjgl.opengl.GL11;

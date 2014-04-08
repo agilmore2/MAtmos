@@ -1,8 +1,8 @@
 package eu.ha3.matmos.game.user;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiScreen;
-import net.minecraft.client.settings.KeyBinding;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.GuiScreen;
+import net.minecraft.src.KeyBinding;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.lwjgl.input.Keyboard;
@@ -41,7 +41,7 @@ public class UserControl implements Ha3HoldActions, SupportsTickEvents, Supports
 	public void load()
 	{
 		// new KeyBinding registers it rightaway to the list of keys
-		this.keyBindingMain = new KeyBinding("MAtmos", 65, "key.categories.misc");
+		this.keyBindingMain = new KeyBinding("key.matmos", 65);
 		Minecraft.getMinecraft().gameSettings.keyBindings =
 			ArrayUtils.addAll(Minecraft.getMinecraft().gameSettings.keyBindings, this.keyBindingMain);
 		this.watcher.add(this.keyBindingMain);

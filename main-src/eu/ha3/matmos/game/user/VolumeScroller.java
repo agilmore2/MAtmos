@@ -1,9 +1,9 @@
 package eu.ha3.matmos.game.user;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.FontRenderer;
-import net.minecraft.client.gui.ScaledResolution;
-import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.FontRenderer;
+import net.minecraft.src.ScaledResolution;
+import net.minecraft.src.EntityPlayer;
 import eu.ha3.matmos.game.system.MAtMod;
 import eu.ha3.matmos.game.system.MAtmosUtility;
 import eu.ha3.mc.convenience.Ha3Scroller;

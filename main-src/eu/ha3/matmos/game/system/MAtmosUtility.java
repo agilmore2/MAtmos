@@ -1,12 +1,12 @@
 package eu.ha3.matmos.game.system;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.audio.SoundCategory;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
+import net.minecraft.src.Block;
+import net.minecraft.src.Material;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.SoundCategory;
+import net.minecraft.src.Item;
+import net.minecraft.src.ItemStack;
+import net.minecraft.src.World;
 
 /* x-placeholder */
 

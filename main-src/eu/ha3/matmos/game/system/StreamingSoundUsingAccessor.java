@@ -7,9 +7,9 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLStreamHandler;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.audio.ISound.AttenuationType;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.AttenuationType;
+import net.minecraft.src.ResourceLocation;
 import paulscode.sound.SoundSystem;
 
 /*

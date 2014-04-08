@@ -10,8 +10,8 @@ import java.util.Map;
 import javax.naming.directory.Attributes;
 import javax.naming.directory.InitialDirContext;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.multiplayer.ServerData;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.ServerData;
 import eu.ha3.matmos.engine.core.interfaces.Data;
 import eu.ha3.matmos.game.data.abstractions.module.Module;
 import eu.ha3.matmos.game.data.abstractions.module.ModuleProcessor;

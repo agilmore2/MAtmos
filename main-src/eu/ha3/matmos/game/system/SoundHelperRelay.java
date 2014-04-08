@@ -3,8 +3,8 @@ package eu.ha3.matmos.game.system;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.entity.Entity;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.Entity;
 import eu.ha3.matmos.engine.core.interfaces.SoundRelay;
 
 /*

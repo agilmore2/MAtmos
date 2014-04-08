@@ -7,11 +7,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityList;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.Entity;
+import net.minecraft.src.EntityList;
+import net.minecraft.src.EntityPlayer;
+import net.minecraft.src.AxisAlignedBB;
 import eu.ha3.matmos.engine.core.interfaces.Data;
 import eu.ha3.matmos.game.data.abstractions.Collector;
 import eu.ha3.matmos.game.data.abstractions.Processor;

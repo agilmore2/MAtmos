@@ -1,9 +1,9 @@
 package eu.ha3.matmos.game.gui;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.audio.SoundCategory;
-import net.minecraft.client.gui.GuiButton;
-import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.SoundCategory;
+import net.minecraft.src.GuiButton;
+import net.minecraft.src.GuiScreen;
 import eu.ha3.matmos.game.system.MAtMod;
 import eu.ha3.mc.gui.HDisplayStringProvider;
 import eu.ha3.mc.gui.HGuiSliderControl;
@@ -202,20 +202,20 @@ public class MAtGuiMore extends GuiScreen
 		if (!this.mod.isDebugMode())
 		{
 			drawGradientRect(0, 0, this.width, this.height, 0xC0000000, 0x60000000);
-			drawCenteredString(this.fontRendererObj, "MAtmos Advanced options", this.width / 2, 8, 0xffffff);
+			drawCenteredString(this.fontRenderer, "MAtmos Advanced options", this.width / 2, 8, 0xffffff);
 		}
 		else
 		{
 			
 			drawGradientRect(0, 0, this.width, this.height, 0xC0C06000, 0x60C06000);
-			drawCenteredString(this.fontRendererObj, "MAtmos Advanced options "
+			drawCenteredString(this.fontRenderer, "MAtmos Advanced options "
 				+ ChatColorsSimple.COLOR_GOLD + "(Dev mode)", this.width / 2, 8, 0xffffff);
 			
 			final int _GAP = 2;
 			final int _UNIT = 20;
 			final int _MIX = _GAP + _UNIT;
 			final int _SEPARATOR = 10;
-			drawCenteredString(this.fontRendererObj, ChatColorsSimple.COLOR_YELLOW
+			drawCenteredString(this.fontRenderer, ChatColorsSimple.COLOR_YELLOW
 				+ "Dev mode is enabled. This may cause Minecraft to run slower.", this.width / 2, _SEPARATOR
 				+ _MIX * (this.IDS_PER_PAGE + 3) - 9, 0xffffff);
 		}

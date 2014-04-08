@@ -1,7 +1,7 @@
 package eu.ha3.matmos.expansions;
 
-import net.minecraft.client.resources.IResourcePack;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.src.IResourcePack;
+import net.minecraft.src.ResourceLocation;
 
 /*
 --filenotes-placeholder

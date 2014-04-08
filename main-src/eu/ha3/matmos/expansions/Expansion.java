@@ -10,9 +10,9 @@ import java.util.Locale;
 import java.util.Scanner;
 import java.util.Set;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.resources.FolderResourcePack;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.FolderResourcePack;
+import net.minecraft.src.ResourceLocation;
 import eu.ha3.easy.TimeStatistic;
 import eu.ha3.matmos.engine.core.implem.Knowledge;
 import eu.ha3.matmos.engine.core.implem.ProviderCollection;

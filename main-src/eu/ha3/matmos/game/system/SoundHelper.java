@@ -3,9 +3,9 @@ package eu.ha3.matmos.game.system;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.entity.Entity;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.Entity;
+import net.minecraft.src.ResourceLocation;
 
 /*
 --filenotes-placeholder
