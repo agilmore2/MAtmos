@@ -45,7 +45,7 @@ public class UserControl implements Ha3HoldActions, SupportsTickEvents, Supports
 		Minecraft.getMinecraft().gameSettings.keyBindings =
 			ArrayUtils.addAll(Minecraft.getMinecraft().gameSettings.keyBindings, this.keyBindingMain);
 		this.watcher.add(this.keyBindingMain);
-		this.keyBindingMain.setKeyCode(this.mod.getConfig().getInteger("key.code"));
+		this.keyBindingMain.keyCode = this.mod.getConfig().getInteger("key.code");
 		KeyBinding.resetKeyBindingArrayAndHash();
 		
 		this.scroller = new VolumeScroller(this.mod);
@@ -57,7 +57,7 @@ public class UserControl implements Ha3HoldActions, SupportsTickEvents, Supports
 		if (this.keyBindingMain == null)
 			return "undefined";
 		
-		return Keyboard.getKeyName(this.keyBindingMain.getKeyCode()); // OBF getKeyCode(), or .keyCode
+		return Keyboard.getKeyName(this.keyBindingMain.keyCode); // OBF getKeyCode(), or .keyCode
 	}
 	
 	@Override

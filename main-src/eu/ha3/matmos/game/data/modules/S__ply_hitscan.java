@@ -21,9 +21,9 @@ public class S__ply_hitscan extends ModuleProcessor implements Module
 	public S__ply_hitscan(Data data)
 	{
 		super(data, "ply_hitscan");
-		this.equiv.put(EnumMovingObjectType.MISS, "");
+		this.equiv.put(null, "");
 		this.equiv.put(EnumMovingObjectType.ENTITY, "entity");
-		this.equiv.put(EnumMovingObjectType.BLOCK, "block");
+		this.equiv.put(EnumMovingObjectType.TILE, "block");
 	}
 	
 	@Override

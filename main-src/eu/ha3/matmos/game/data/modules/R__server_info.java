@@ -16,6 +16,7 @@ import eu.ha3.matmos.engine.core.interfaces.Data;
 import eu.ha3.matmos.game.data.abstractions.module.Module;
 import eu.ha3.matmos.game.data.abstractions.module.ModuleProcessor;
 import eu.ha3.matmos.log.MAtLog;
+import eu.ha3.mc.haddon.PrivateAccessException;
 
 /*
 --filenotes-placeholder
@@ -37,7 +38,16 @@ public class R__server_info extends ModuleProcessor implements Module
 	@Override
 	protected void doProcess()
 	{
-		ServerData serverData = Minecraft.getMinecraft().func_147104_D();
+		ServerData serverData = null;
+		try
+		{
+			serverData =
+				(ServerData) mod().util().getPrivateValueLiteral(Minecraft.class, Minecraft.getMinecraft(), "M", 6);
+		}
+		catch (PrivateAccessException e)
+		{
+			e.printStackTrace();
+		}
 		
 		if (serverData != null && serverData.serverIP != null)
 		{

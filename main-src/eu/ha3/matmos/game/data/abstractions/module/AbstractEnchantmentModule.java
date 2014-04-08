@@ -6,6 +6,7 @@ import java.util.Set;
 import net.minecraft.src.Minecraft;
 import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.ItemStack;
+import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.NBTTagList;
 import eu.ha3.matmos.engine.core.interfaces.Data;
 
@@ -47,9 +48,9 @@ public abstract class AbstractEnchantmentModule extends ModuleProcessor implemen
 			NBTTagList enchantments = item.getEnchantmentTagList();
 			for (int i = 0; i < total; i++)
 			{
-				int id = enchantments.getCompoundTagAt(i).getShort("id");
+				int id = ((NBTTagCompound) enchantments.tagAt(i)).getShort("id");
 				
-				short lvl = enchantments.getCompoundTagAt(i).getShort("lvl");
+				short lvl = ((NBTTagCompound) enchantments.tagAt(i)).getShort("lvl");
 				setValue(Integer.toString(id), Short.toString(lvl));
 				this.oldThings.add(Integer.toString(id));
 			}
