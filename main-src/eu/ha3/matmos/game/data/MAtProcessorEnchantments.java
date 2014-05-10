@@ -29,6 +29,8 @@ import eu.ha3.matmos.game.system.MAtMod;
 
 public abstract class MAtProcessorEnchantments extends MAtProcessorModel
 {
+	Set<Integer> seen;
+	
 	public MAtProcessorEnchantments(MAtMod modIn, IntegerData dataIn, String normalNameIn, String deltaNameIn)
 	{
 		super(modIn, dataIn, normalNameIn, deltaNameIn);
@@ -66,10 +68,12 @@ public abstract class MAtProcessorEnchantments extends MAtProcessorModel
 						setValue(id, lvl);
 					}
 				}
-				else
+				else if (!seen.contains(id))
 				{
 					MAtmosConvLogger.warning("Found enchantment which ID is " + id + "!!!");
+					seen.add(id);
 				}
+				else { } //don't complain more than once about unknown ids
 			}
 		}
 	}
