@@ -59,13 +59,12 @@ public abstract class ProcessorModel implements Processor
 	
 	public void setValue(int index, int newValue)
 	{
-		int previousValue = this.normalSheet.get(index);
-		this.normalSheet.set(index, newValue);
-		
 		if (this.deltaName != null)
 		{
+			int previousValue = this.normalSheet.get(index);
 			this.deltaSheet.set(index, newValue - previousValue);
 		}
+		this.normalSheet.set(index, newValue);
 	}
 	
 	/**
